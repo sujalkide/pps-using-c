@@ -1,0 +1,18 @@
+#include s<stdio.h>
+int main()
+{
+  int num,r;
+  printf("Enter number \t");
+  scanf("%d",&num);
+  r=num%2;
+  printf("reminder id: %d\n",r);
+  if(r==0)
+  {
+   printf("EVEN");
+  }
+ else 
+ {
+   printf("ODD");
+ }
+  return 0;
+}
