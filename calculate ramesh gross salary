@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+ float GS,BS,TA,HRA;
+ printf(" Enetr basic salary=\t");
+ scanf("%f",&BS);
+ TA=(0.4)*BS;
+ printf("\ntravelling Allowence=%f\t",TA);
+ HRA=(0.2)*BS;
+ printf("\n house Rent Allowence=%f\t",HRA);
+ GS=BS-TA+HRA;
+ printf("\nGross salary=%f\t",GS);
+ return 0;
+}
