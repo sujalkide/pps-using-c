@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main() 
+{
+ int a=5,b=10;
+swapping without using extra variable
+a=a+b;
+b=a-b;
+a=a-b;
+printf("after swapping without using extra variable:\n");
+printf("a=%d\n",a);
+printf("b=%d\n",b);
+return 0;
+}
