@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main ()
+{
+ int c=4,d=8;
+ sum (c,d);
+ return 0;
+}
+int sum (n1,n2)
+{
+ int addition 
+ addition= n1+n2;
+printf ("addition is %d";addtion);
+}
